@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/contact">Contact</router-link> |
-    <router-link to="/portfolio">Portfolio</router-link>
+    <router-link to="/works">Works</router-link>
   </div>
   <router-view v-slot="slotProps">
     <transition name="route" mode="out-in">
@@ -42,14 +42,6 @@ body {
   justify-content: center;
 }
 
-.poppins-font {
-  font-family: "Poppins", sans-serif;
-}
-
-.open-sans-font {
-  font-family: "Open Sans", sans-serif;
-}
-
 #nav {
   padding: 30px;
 
@@ -61,6 +53,10 @@ body {
       color: #6957af;
     }
   }
+}
+
+h1 {
+  text-align: center;
 }
 
 .route-enter-from,
